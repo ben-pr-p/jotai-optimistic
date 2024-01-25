@@ -1,0 +1,33 @@
+{
+  "name": "jotai-optimistic",
+  "main": "dist/index.js",
+  "version": "0.0.1",
+  "devDependencies": {
+    "bun-types": "latest",
+    "@types/react": "^18.2.48"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0",
+    "jotai": "^2.6.3",
+    "immer": "^10.0.3",
+    "react": "^18.2.0"
+  },
+  "scripts": {
+    "compile": "tsc -p tsconfig.build.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ben-pr-p/jotai-optimistic.git"
+  },
+  "author": "Ben Packer <ben.paul.ryan.packer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ben-pr-p/jotai-optimistic/issues"
+  },
+  "homepage": "https://github.com/ben-pr-p/jotai-optimistic",
+  "dependencies": {
+  }
+}
