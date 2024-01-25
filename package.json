@@ -1,7 +1,7 @@
 {
   "name": "jotai-optimistic",
   "main": "dist/index.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "devDependencies": {
     "bun-types": "latest",
     "@types/react": "^18.2.48"

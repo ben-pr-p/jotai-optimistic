@@ -1,3 +1,10 @@
+# jotai-optimistic
+
+A highly opinionated approach to optimistic updates with Jotai and Immer.
+
+Mutate your state optimistically, run your network request, and don't worry
+about rolling back the optimistic update if the network request fails.
+
 # Motivation
 
 Optimistic updates are hard.
